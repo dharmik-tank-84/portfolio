@@ -1,12 +1,19 @@
 "use client";
 
-import { Roboto } from "next/font/google";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { redirect, usePathname } from "next/navigation";
 import style from "@/app/page.module.css";
+import { Oswald } from "next/font/google";
+import { Roboto } from "next/font/google";
+
+const oswald = Oswald({
+  weight: "700",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const roboto = Roboto({
-  weight: "500",
+  weight: "700",
   subsets: ["latin"],
   display: "swap",
 });
@@ -15,12 +22,12 @@ export default function page() {
   const pathname = usePathname();
   return (
     <>
-      <div className="flex items-center justify-between py-4 px-4">
-        <p className={`text-2xl ${roboto.className} cursor-pointer`}>
+      <div className="flex items-center justify-between h-[80px] py-4 px-8">
+        <p className={`text-4xl ${oswald.className} cursor-pointer`}>
           Dharmik Tank
         </p>
-        <ul className="flex gap-3">
-          <li>
+        <ul className={`flex gap-5 ${roboto.className}`}>
+          <li className="text-xl">
             <Link
               className={`link ${pathname === "/" ? `${style.active}` : ""}`}
               href="/"
@@ -28,7 +35,7 @@ export default function page() {
               Home
             </Link>
           </li>
-          <li>
+          <li className="text-xl">
             <Link
               className={`link ${
                 pathname === "/about" ? `${style.active}` : ""
@@ -38,7 +45,7 @@ export default function page() {
               About
             </Link>
           </li>
-          <li>
+          <li className="text-xl">
             <Link
               className={`link ${
                 pathname === "/skill" ? `${style.active}` : ""
@@ -48,7 +55,27 @@ export default function page() {
               Skill
             </Link>
           </li>
-          <li>
+          <li className="text-xl">
+            <Link
+              className={`link ${
+                pathname === "/service" ? `${style.active}` : ""
+              }`}
+              href="/service"
+            >
+              Service
+            </Link>
+          </li>
+          <li className="text-xl">
+            <Link
+              className={`link ${
+                pathname === "/portfolio" ? `${style.active}` : ""
+              }`}
+              href="/portfolio"
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li className="text-xl">
             <Link
               className={`link ${
                 pathname === "/contact" ? `${style.active}` : ""

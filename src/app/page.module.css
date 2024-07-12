@@ -1,13 +1,8 @@
 .active {
   text-decoration: underline;
+  color: black;
 }
 
-.dashboard_bg_image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/main_image.jpg");
-  height: 100vh;
-  width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.home_page_height {
+  height: calc(100vh - 80px);
 }
