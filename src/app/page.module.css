@@ -1,8 +1,5 @@
 .active {
   text-decoration: underline;
+  text-underline-offset: 8px;
   color: black;
-}
-
-.home_page_height {
-  height: calc(100vh - 80px);
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { redirect, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import style from "@/app/page.module.css";
 import { Oswald } from "next/font/google";
 import { Roboto } from "next/font/google";
@@ -29,7 +29,7 @@ export default function page() {
         <ul className={`flex gap-5 ${roboto.className}`}>
           <li className="text-xl">
             <Link
-              className={`link ${pathname === "/" ? `${style.active}` : ""}`}
+              className={` link ${pathname === "/" ? `${style.active}` : ""}`}
               href="/"
             >
               Home
