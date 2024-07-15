@@ -24,6 +24,10 @@ export default function Page() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
 
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <>
       <div className="flex items-center justify-between h-[80px] py-4 px-8">
@@ -34,12 +38,13 @@ export default function Page() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-2xl focus:outline-none"
+            aria-label="Toggle menu"
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
         <ul
-          className={`flex-col md:flex-row gap-5 absolute shadow-md md:shadow-none pb-4 md:pb-0 top-[100px] z-50 pl-8 md:pl-0 md:top-auto right-0 w-full md:w-auto bg-gray-100 md:relative md:flex  ${
+          className={`flex-col md:flex md:flex-row gap-5 absolute shadow-md md:shadow-none pb-4 md:pb-0 top-[100px] z-50 pl-8 md:pl-0 md:top-auto right-0 w-full md:w-auto bg-gray-100 md:relative  ${
             roboto.className
           } ${menuOpen ? "flex" : "hidden"}`}
         >
@@ -47,6 +52,7 @@ export default function Page() {
             <Link
               className={`link ${pathname === "/" ? `${style.active}` : ""}`}
               href="/"
+              onClick={handleLinkClick}
             >
               Home
             </Link>
@@ -57,6 +63,7 @@ export default function Page() {
                 pathname === "/about" ? `${style.active}` : ""
               }`}
               href="/about"
+              onClick={handleLinkClick}
             >
               About
             </Link>
@@ -67,6 +74,7 @@ export default function Page() {
                 pathname === "/skill" ? `${style.active}` : ""
               }`}
               href="/skill"
+              onClick={handleLinkClick}
             >
               Skill
             </Link>
@@ -77,6 +85,7 @@ export default function Page() {
                 pathname === "/service" ? `${style.active}` : ""
               }`}
               href="/service"
+              onClick={handleLinkClick}
             >
               Service
             </Link>
@@ -87,6 +96,7 @@ export default function Page() {
                 pathname === "/portfolio" ? `${style.active}` : ""
               }`}
               href="/portfolio"
+              onClick={handleLinkClick}
             >
               Portfolio
             </Link>
@@ -97,6 +107,7 @@ export default function Page() {
                 pathname === "/contact" ? `${style.active}` : ""
               }`}
               href="/contact"
+              onClick={handleLinkClick}
             >
               Contact
             </Link>
