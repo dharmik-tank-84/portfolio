@@ -20,7 +20,7 @@ const page = () => {
       description:
         "Created a personal portfolio website to showcase my projects and skills.",
       technologies: ["Next.js", "Tailwind CSS"],
-      link: "https://www.google.com",
+      link: "https://dharmik-tank.web.app/",
     },
     {
       title: "Expesify",
