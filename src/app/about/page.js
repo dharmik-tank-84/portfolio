@@ -58,7 +58,7 @@ const page = () => {
               <h2 className="text-2xl text-black mb-4 underline underline-offset-8">
                 Certifications
               </h2>
-              <p>Completed [Course Name] on [Platform]</p>
+              <p>React Js on Great Learning</p>
             </section>
 
             <section className=" mb-8 animate__animated animate__fadeInRight">

@@ -4,15 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import style from "@/app/page.module.css";
-import { Oswald } from "next/font/google";
 import { Roboto } from "next/font/google";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-const oswald = Oswald({
-  weight: "700",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 const roboto = Roboto({
   weight: "700",
@@ -31,7 +24,7 @@ export default function Page() {
   return (
     <>
       <div className="flex items-center justify-between h-[80px] py-4 px-8">
-        <p className={`text-4xl ${oswald.className} cursor-pointer`}>
+        <p className={`text-4xl ${roboto.className} cursor-pointer`}>
           Dharmik Tank
         </p>
         <div className="md:hidden">

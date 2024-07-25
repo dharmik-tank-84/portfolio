@@ -12,7 +12,7 @@ const page = () => {
     { name: "React.js", level: "Advanced" },
     { name: "JavaScript (ES6+)", level: "Intermediate" },
     { name: "HTML5", level: "Advanced" },
-    { name: "React Router Dom", level: "Intermediate" },
+    { name: "React Router Dom", level: "Advanced" },
     { name: "Redux-Toolkit", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
   ];
@@ -20,7 +20,7 @@ const page = () => {
   const uiDesignSkills = [
     { name: "CSS3", level: "Advanced" },
     { name: "Bootstrap", level: "Advanced" },
-    { name: "SCSS", level: "SCSS" },
+    { name: "SCSS", level: "Intermediate" },
     { name: "Tailwind CSS", level: "Intermediate" },
     { name: "jQuery", level: "Advanced" },
     { name: "Material UI", level: "Intermediate" },

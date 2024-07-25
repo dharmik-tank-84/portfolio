@@ -10,28 +10,23 @@ const poppins = Poppins({
 const page = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description:
-        "Developed a full-fledged e-commerce platform with features like user authentication, product management, and shopping cart.",
-      technologies: ["React.js", "Redux", "Node.js", "MongoDB"],
-      image: "/images/ecommerce.png",
-      link: "https://example.com/ecommerce",
+      title: "Hari Har Enterprise",
+      description: "our products service and works",
+      technologies: ["React.js"],
+      link: "https://hariharenterprise.com/",
     },
     {
       title: "Portfolio Website",
       description:
         "Created a personal portfolio website to showcase my projects and skills.",
-      technologies: ["Next.js", "Tailwind CSS", "Vercel"],
-      image: "/images/portfolio.png",
-      link: "https://example.com/portfolio",
+      technologies: ["Next.js", "Tailwind CSS"],
+      link: "https://www.google.com",
     },
     {
-      title: "Blog Platform",
-      description:
-        "Built a blog platform where users can write, edit, and publish their articles.",
-      technologies: ["Gatsby.js", "GraphQL", "Firebase"],
-      image: "/images/blog.png",
-      link: "https://example.com/blog",
+      title: "Expesify",
+      description: "today money transfer note and firebase authentication",
+      technologies: ["React.js ", "firebase", "react-router-dom", "Mui"],
+      link: "https://expesify-f678f.web.app/",
     },
   ];
   return (
