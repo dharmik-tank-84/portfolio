@@ -65,7 +65,11 @@ const page = () => {
               <h2 className="text-2xl text-black mb-4 underline underline-offset-8">
                 Hobbies and Interests
               </h2>
-              <p>When I&apos;m not working, I enjoy gaming.</p>
+              <ul>
+                <li>Gaming</li>
+                <li>Sport</li>
+                <li>Reading</li>
+              </ul>
             </section>
 
             <section className="animate__animated animate__fadeInRight">
