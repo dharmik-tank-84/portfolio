@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div
-        className={`flex flex-col-reverse md:flex-row overflow-hidden px-8 py-4`}
+        className={`flex z-50 flex-col-reverse md:flex-row overflow-hidden px-8 py-4`}
       >
         <div
           className={`flex-1  flex animate__animated justify-center animate__fadeInLeft flex-col items-center md:items-start ${poppins.className}`}

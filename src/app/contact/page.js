@@ -17,7 +17,7 @@ const page = () => {
   return (
     <>
       <div
-        className={`p-8 ${poppins.className} animate__animated animate__fadeIn`}
+        className={`p-8  ${poppins.className} animate__animated animate__fadeIn`}
       >
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-8 gap-4">
           <li className="p-4 bg-white shadow rounded-lg">

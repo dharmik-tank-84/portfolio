@@ -32,7 +32,7 @@ const page = () => {
   return (
     <>
       <div
-        className={`p-8 ${poppins.className} animate__animated animate__zoomIn`}
+        className={`p-8  ${poppins.className} animate__animated animate__zoomIn`}
       >
         <section className="mb-8">
           <h1 className="text-3xl mb-4 text-black underline underline-offset-8">

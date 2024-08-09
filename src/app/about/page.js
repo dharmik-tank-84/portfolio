@@ -20,9 +20,10 @@ const page = () => {
                 About Me
               </h1>
               <p>
-                Hi, I&apos;m Dharmik Tank, a dedicated React developer with 1
-                year of experience building dynamic and responsive web
-                applications. I can provide clean code and pixel perfect design.
+                Hi, I&apos;m Dharmik Tank, a dedicated React developer &nbsp;
+                {/* with 1 year of experience */}
+                building dynamic and responsive web applications. I can provide
+                clean code and pixel perfect design.
               </p>
             </section>
 

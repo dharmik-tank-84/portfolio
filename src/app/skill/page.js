@@ -13,7 +13,7 @@ const page = () => {
     { name: "JavaScript (ES6+)", level: "Intermediate" },
     { name: "HTML5", level: "Advanced" },
     { name: "React Router Dom", level: "Advanced" },
-    { name: "Redux-Toolkit", level: "Intermediate" },
+    // { name: "Redux-Toolkit", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
   ];
 
@@ -33,7 +33,7 @@ const page = () => {
   return (
     <>
       <div
-        className={`p-8 ${poppins.className} animate__animated animate__fadeIn`}
+        className={`p-8  ${poppins.className} animate__animated animate__fadeIn`}
       >
         <section className="mb-8">
           <div className="mb-8">

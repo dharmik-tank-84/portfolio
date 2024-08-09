@@ -37,9 +37,9 @@ export default function Page() {
           </button>
         </div>
         <ul
-          className={`flex-col md:flex md:flex-row gap-5 absolute shadow-md md:shadow-none pb-4 md:pb-0 top-[100px] z-50 pl-8 md:pl-0 md:top-auto right-0 w-full md:w-auto bg-gray-100 md:relative  ${
-            roboto.className
-          } ${menuOpen ? "flex" : "hidden"}`}
+          className={`${roboto.className} ${
+            menuOpen ? "flex flex-col" : "invisible md:visible md:flex"
+          } md:flex-row gap-5 absolute md:relative top-[100px] md:top-auto right-0 w-full md:w-auto bg-gray-100 md:bg-transparent shadow-md md:shadow-none pb-4 md:pb-0 pl-8 md:pl-0 z-50`}
         >
           <li className="text-xl">
             <Link
