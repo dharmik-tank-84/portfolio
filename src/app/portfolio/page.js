@@ -28,6 +28,18 @@ const page = () => {
       technologies: ["React.js ", "firebase", "react-router-dom", "Mui"],
       link: "https://expesify-f678f.web.app/",
     },
+    {
+      title: "Groco-store",
+      description: "vegetables and fruits store",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      link: "https://dharmik-tank-84.github.io/Groco-store/",
+    },
+    {
+      title: "Mobile landing page",
+      description: "New mobile intro page",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      link: "https://dharmik-tank-84.github.io/landing-page/",
+    },
   ];
   return (
     <>
