@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import logo from "./images/dharmik_image.png";
 import { Poppins } from "next/font/google";
 import "animate.css/animate.css";
 import { useEffect, useState } from "react";
@@ -56,14 +55,15 @@ export default function Home() {
           className={`flex-1  flex animate__animated justify-center animate__fadeInLeft flex-col items-center md:items-start ${poppins.className}`}
         >
           <p className="text-4xl md:text-5xl">Dharmik Tank</p>
-          <p className="text-lg md:text-xl">I&apos;m {text}</p>
+          <p className="text-lg md:text-xl">I&apos;m {text}|</p>
         </div>
         <div className="flex-1  flex animate__animated animate__fadeInRight items-center justify-center py-4">
           <Image
             alt="dharmik img"
-            src={logo}
-            className="pt-2 border-[10px] border-black rounded-full"
+            src={"img/dharmik_image.png"}
+            className="pt-2 border-[10px] object-cover border-black rounded-full"
             width={300}
+            height={300}
             priority={true}
           />
         </div>

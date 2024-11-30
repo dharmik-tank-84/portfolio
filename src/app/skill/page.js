@@ -47,11 +47,11 @@ const page = () => {
     { name: "Animate CSS", level: "Advanced" },
   ];
 
-  const softSkill = [
-    { name: "Problem Solving" },
-    { name: "Communication" },
-    { name: "Collaboration" },
-  ];
+  // const softSkill = [
+  //   { name: "Problem Solving" },
+  //   { name: "Communication" },
+  //   { name: "Collaboration" },
+  // ];
 
   return (
     <>
@@ -130,7 +130,7 @@ const page = () => {
             </ul>
           </div>
 
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <h2 className="text-2xl text-black mb-6 underline underline-offset-8">
               Soft Skills
             </h2>
@@ -141,7 +141,7 @@ const page = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </section>
       </div>
     </>
