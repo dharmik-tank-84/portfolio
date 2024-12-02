@@ -11,13 +11,6 @@ const poppins = Poppins({
 const page = () => {
   const projects = [
     {
-      title: "Tomato Food Order",
-      description: "multiple food items and order food",
-      technologies: ["React js", "React-router-dom"],
-      link: "https://dharmik-tank-84.github.io/Parallax-Scrolling-Effect/",
-      image: "img/tomato-food-order_image.png",
-    },
-    {
       title: "Hari Har Enterprise",
       description: "our products service and works",
       technologies: ["React.js"],
@@ -73,6 +66,13 @@ const page = () => {
       technologies: ["HTML", "CSS", "JavaScript"],
       link: "https://dharmik-tank-84.github.io/Parallax-Scrolling-Effect/",
       image: "img/Parallax-Scrolling-Effect_image.png",
+    },
+    {
+      title: "Tomato Food Order",
+      description: "multiple food items and order food",
+      technologies: ["React js", "React-router-dom"],
+      link: "https://tomato-food-order.web.app/",
+      image: "img/tomato-food-order_image.png",
     },
   ];
   return (
